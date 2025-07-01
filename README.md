@@ -16,3 +16,15 @@ This is an end-to-end Cypress test suite for automating a custom Merchant Manage
 ```bash
 npm install
 npx cypress open
+
+## Setup Instructions
+
+1. Clone the repository
+2. Run `npm install`
+3. Create a `cypress.env.json` file with the following structure:
+
+```json
+{
+  "username": "your_username",
+  "password": "your_password"
+}
